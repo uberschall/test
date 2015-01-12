@@ -2,7 +2,16 @@
 
 ### Overview
 
-Power amplifier는 preamplifier의 출력을 전력 증폭하여 스피커를 울릴 수 있도록 하는 기능을 담당한다. 
+Power amplifier는 preamplifier의 출력을 전력 증폭하여 스피커를 울릴 수 있도록 하는 기능을 담당한다.
+
+Tube amplifier에서 power amplifier는 일반적으로 다음과 같이 구성된다.
+
+* phase splitter (또는 phase interver)
+* (push-pull) power amplifier
+* output transformer
+* feedback loop
+
+각각을 부분 부분 나누어 살펴보도록 하자.
 
 ### Phase Splitter
 
