@@ -28,7 +28,7 @@ Triode에 한 개 혹은 2개의 전극을 추가하여 전류의 흐름을 더 
 
 ![소신호 증폭용 pentode EF86](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/M035350P01WL.jpg)
 
-
+![대표적인 출력관 EL34](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/EL343.jpg)
 
 ### FET (Field Emission Transistor)
 
