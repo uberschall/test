@@ -12,7 +12,9 @@
 
 흔히 진공관 정류기, 혹은 정류관이라 부른다.
 
-![](https://github.com/uberschall/test/preamplifier/5u4grussian.jpg)
+![](https://raw.github.com/uberschall/test/preamplifier/5u4grussian.jpg)
+
+![](https://github.com/GitbookIO/gitbook/preview.png)
 
 #### Triode (3극관)
 
