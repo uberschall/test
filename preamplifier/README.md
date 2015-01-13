@@ -26,6 +26,10 @@ Diode에 또 다른 전극을 넣어 전기장의 세기를 제어할 수 있도
 
 Triode에 한 개 혹은 2개의 전극을 추가하여 전류의 흐름을 더 원활하게 하여 증폭 특성을 개선한 진공관이다. triode와의 차이점은 진공관을 흐르는 전류가 양극과 음극의 전압 차에 덜 영향 받는다는 것이다. 소신호 증폭에도 쓰이고 (EF86) 대부분 출력 증폭기에 쓰인다.
 
+![소신호 증폭용 pentode EF86](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/M035350P01WL.jpg)
+
+
+
 ### FET (Field Emission Transistor)
 
 반도체 소자로서 불순물을 심은 실리콘 결정에 전압을 걸어 전기장을 형성 시킴으로써 전자의 흐름을 일으키고, 여기에 다른 불순물을 심은 영역을 만들어 넣어 이 영역이 전기장을 제어할 수 있도록 하여 만들어진 증폭 소자이다.
