@@ -20,7 +20,7 @@ Diode에 또 다른 전극을 넣어 전기장의 세기를 제어할 수 있도
 
 기타 앰프에 흔히 쓰이는 triode는 12AX7으로서 전압 증폭률이 가장 높은 관이며, 12AU7이나 12AT7이 쓰이는 경우도 있으나 매우 드물다.
 
-![](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/617_12AX7_TELE_PR2_800.JPG)
+![Telefunken의 12AX7](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/617_12AX7_TELE_PR2_800.JPG)
 
 #### Tetrode/Pentode (4극관/5극관)
 
