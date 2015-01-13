@@ -13,6 +13,7 @@
 흔히 진공관 정류기, 혹은 정류관이라 부른다.
 
 ![](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/5u4grussian.jpg)
+
 그림 1. 가장 널리 쓰이는 정류관인 5U4G
 
 #### Triode (3극관)
@@ -22,6 +23,7 @@ Diode에 또 다른 전극을 넣어 전기장의 세기를 제어할 수 있도
 기타 앰프에 흔히 쓰이는 triode는 12AX7으로서 전압 증폭률이 가장 높은 관이며, 12AU7이나 12AT7이 쓰이는 경우도 있으나 매우 드물다.
 
 ![Telefunken의 12AX7](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/617_12AX7_TELE_PR2_800.JPG)
+
 그림 2. Telefunken의 12AX7
 
 #### Tetrode/Pentode (4극관/5극관)
@@ -29,10 +31,12 @@ Diode에 또 다른 전극을 넣어 전기장의 세기를 제어할 수 있도
 Triode에 한 개 혹은 2개의 전극을 추가하여 전류의 흐름을 더 원활하게 하여 증폭 특성을 개선한 진공관이다. triode와의 차이점은 진공관을 흐르는 전류가 양극과 음극의 전압 차에 덜 영향 받는다는 것이다. 소신호 증폭에도 쓰이고 (EF86) 대부분 출력 증폭기에 쓰인다.
 
 ![소신호 증폭용 pentode EF86](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/M035350P01WL.jpg)
+
 그림 3. 소신호 증폭용 pentode EF86
 
 
 ![대표적인 출력관 EL34](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/EL343.jpg)
+
 그림 4. 대표적인 출력관 EL34
 
 ### FET (Field Emission Transistor)
