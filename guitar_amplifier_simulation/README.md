@@ -32,13 +32,26 @@
 
 #### Trapezoidal Rule
 
+Trapezoidal rule은 일종의 수치해석 방법 중 하나이다. '수치해석' 은 쉽게 말해 어떤 어려운 문제를 풀어야 되는데 한정된 조건의 데이터만 주어졌을 때, 그것을 최대한 이용하여 가장 가까운 답을 찾아가는 방법을 다루는 분야다.
+
+우리가 Trapezoidal rule을 이용하여 한정된 데이터를 이용하여 미분값을 계산하려 한다.
+
+시간 $$ t_1 $$, $$ t_2 $$ 에 샘플한 샘플 두 개 $$ V(t_1) $$, $$ V(t_2) $$를 가지고 미분값을 계산하자면, 쉽게 다음을 생각할 수 있다.
+
+$$ \frac{dV}{dt} \approx \frac{V(t_2)-V(t_1)}{t_2 - t_1} $$
+
+위 결과는 $$V(t)$$가 시간에 대한 1차 함수라고 생각하면 정확한 미분값을 얻을 수 있는데, 2차 이상의 고차함수라고 생각하면 틀린 결과를 얻게 된다.
+
+$$ \frac{dV}{dt} \approx \frac{V(t_2)-V(t_1)}{2(t_2 - t_1)} $$
+
+
 다음의 간단한 RC filter 수식을 trapezoidal rule을 이용해서 digital domain으로 옮겨보도록 하자.
 
 $$ C \frac{d V_c}{d t} = \frac{Vo}{R} $$
 
 여기서, $$\frac{d V_c}{d t}$$는 전압 변화의 시간에 대한 도함수인데, 이것을 디지털 영역으로 가져가고 삼각형 근사로 나타내어 보면 다음과 같다.
 
-$$ \frac{d V_c}{d t} \approx \frac{\Delta V_c}{\Delta t} = \frac{ (V_c (n) - V_c(n-1))}{T_s/2} = 2 F_s (V_c (n) - V_c(n-1)), $$
+$$ \frac{d V_c}{d t} \approx \frac{\Delta V_c}{\Delta t} = \frac{ V_c (n) - V_c(n-1)}{T_s/2} = 2 F_s (V_c (n) - V_c(n-1)), $$
 여기서, $$T_s$$는 샘플 간격 (sampling interval), $$ F_s $$는 sample frequency이다. 시간의 도함수의 근사값은 두 상태 변수의 차에 샘플링 주파수를 곱한 값에 2를 곱한 값이 된다. 이 결과는 Laplace transform된 결과를 bilinear transform하여 근사한 것과 같은 결과가 된다.
 
 ### Tube Gain Stage
