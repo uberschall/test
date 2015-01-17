@@ -73,4 +73,7 @@ $$ 2F_s C_{k} \Delta V_{k} + \frac{V_k}{R_k} = i_g + i_p, $$
 
 $$ (i_g, i_p) = f (V_{gk}, V_{pk}),$$
 
+이것을 discrete한 input에 대한 식으로 바꿔보면 다음과 같아진다.
+
+$$ \frac{V_i-V_g}{R_g} + 2F_s C_{pg} \Delta V_{pk} =2F_s (C_{gk}+C_{pg}) \Delta V_{gk} + i_g, $$
 
