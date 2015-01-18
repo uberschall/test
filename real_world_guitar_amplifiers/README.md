@@ -23,6 +23,10 @@
 
 펜더 앰프 회로의 triode의 증폭률을 올려서 프리앰프와 phase splitter의 디스토션양을 증가시킨 앰프이다. 전반적으로 펜더앰프와 크게 다르지 않으나 phase splitter가 12AU7이나 12AT7처럼 전압 증폭률이 낮은 triode가 아닌 12AX7을 사용함으로써 앰프 출력을 개선했다.
 
+사진에서 보여지듯 Fender Twin reverb회로를 개조하여 gain을 올려준 앰프로 볼 수 있다. 대신 비브라토 채널은 존재하지 않는 것을 알 수 있고, 60과 100 RMS는 2개의 6L6GC pair중 하나를 껐다 켰다 할 수 있게 하여 출력을 조정할 수 있게 한 것이라 이해하면 된다.
+
+![MesaBoogie Mark I](https://raw.githubusercontent.com/uberschall/test/master/real_world_guitar_amplifiers/Mesa-Boogie-Mark-1-Head-70s-C.JPG)
+
 ##### Mark II
 
 본격적으로 2개의 triode로 구성된 메사부기 사운드의 핵을 이루는 lead channel 회로가 붙게 된다.
