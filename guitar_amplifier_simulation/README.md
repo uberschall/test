@@ -86,7 +86,40 @@ $$ 2F_s C_{k} \Delta V_{k} + \frac{V_k}{R_k} = i_g + i_p, $$
 
 $$ (i_g, i_p) = f (V_{gk}, V_{pk}),$$
 
+여기서, 개개의 전압 변수들은 capacitor voltage로 나타낼 수 있고,
+$$ V_g = V_{C_{gk}} + V_{C_k}$$
+$$ V_{pg} = V_{C_{pg}}$$
+$$ V_p = V_{C_{pg}}+V_{C_{gk}} + V_{C_k}$$
+$$ V_k = V_{C_{k}} $$
+
+각각의 capacitor voltage는 전술한 바와 같이 state variable이 되므로, 다음과 같이 정의하자.
+$$ {\bf v} (n) = \begin{bmatrix} V_{C_{p}}(n) \\ V_{C_{pg}}(n) \\ V_{C_{gk}} (n) \\ V_{C_{k}} (n) \end{bmatrix} $$
+
+입력 변수는 B+ voltage와 input voltage로 쓸 수 있으므로 다음과 같아진다.
+$$ {\bf x} (n) = \begin{bmatrix} v_i(n) \\ V_{B_+} (n) \end{bmatrix} $$
+
+Triode 비선형 함수의 입력은 $$V_{gk}$$, $$V_{pk}$$ 가 되므로 이것은 다음과 같이 나타낼 수 있다.
+$$ {\bf u} (n) = \begin{bmatrix} V_{gk}(n) \\ V_{pk} (n) \end{bmatrix} $$
+
+비선형 함수의 출력은 다음과 같이 쓸 수 있다.
+$$ {\bf i} (n) = \begin{bmatrix} i_g (n) \\ i_p (n) \end{bmatrix} = {\bf f}({\bf u}(n))$$
+
+결국, 위 식을 모두 종합하면 다음과 같은 state space equation으로 나타낼 수 있다.
+
+$$ {\bf v}(n+1) = {\bf A} {\bf v}(n) + {\bf B}{\bf f} ({\bf i}(n)) + {\bf C}{\bf x}(n) $$
+여기서,
+$$ {\bf i}(n) ={\bf f}({\bf u}(n)), $$
+$$ {\bf u}(n) ={\bf D}{\bf v}(n), $$
+
+
 이것을 discrete한 input에 대한 식으로 바꿔보면 다음과 같아진다.
 
-$$ \frac{V_i-V_g}{R_g} + 2F_s C_{pg} \Delta V_{pk} =2F_s (C_{gk}+C_{pg}) \Delta V_{gk} + i_g, $$
+$$ \frac{V_i-V_g}{R_g} + 2F_s C_{pg} \Delta V_{pg} =2F_s C_{gk} \Delta V_{gk} + i_g, $$
+
+$$ \frac{B_+-V_p}{R_p} + 2F_s C_{p} \Delta V_{p} = 2F_s C_{pg} \Delta V_{pg} + i_p, $$
+
+$$ 2F_s C_{k} \Delta V_{k} + \frac{V_k}{R_k} = i_g + i_p, $$
+
+$$ (i_g, i_p) = f (V_{gk}, V_{pk}),$$
+
 
