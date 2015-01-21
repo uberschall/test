@@ -17,6 +17,10 @@ $$ {\bf x}(n) = {\bf Ax}(n-1) + {\bf Bu}(n) $$
 이 시스템에서의 출력 또한 다음과 같아진다.
 $$ {\bf y}(n) = {\bf Cx}(n-1) + {\bf Du}(n) $$
 
+Discrete model을 블록 다이어그램으로 나타내면 다음과 같아진다.
+
+![](https://raw.githubusercontent.com/uberschall/test/master/guitar_amplifier_simulation/model1.png)
+
 ## State Space Non-Linear Model
 
 Diode clipper라든가 Triode가 들어가 있는 비선형회로는 기존의 state space model에 비선형 함수를 통해 그 왜곡을 추가하여 나타낼 수 있다.
