@@ -20,7 +20,7 @@ Pro tools 플러그인 중에서 PC 기반의 오디오 프로세싱을 하는 �
 
 ### Development Platform
 
-일반적으로 플러그인의 개발은 DAW 업체에서 제공하는 SDK 상에서 이루어지는 게 보통이고, 이러한 경우 개발하는 OS에 대한 의존성이 커지기 때문에 MacOS/Windows 환경을 고려하여 개발하는 경우에는 별도의 포팅 작업이 필요하고 절차도 복잡해서, 개인이 개발하는 경우에는 대개 한 가지 OS를 지원하는 경우가 많았다. 그러나, 최근에는 OS에 대한 의존성을 최대한 줄인 개발 플랫폼이 배포되고 있어 이를 활용하면 특정 환경을 지원하는 플러긴이라도 일단 개발 완료하게 되면 AU/VST/VST3/AAX용 플러긴 뿐 아니라 MacOS/Window, 32/64bit 모두 지원할 수 있도록 각각의 플러긴을 한꺼번에 빌드할 수 있다. 물론 standalone application도 동시에 만들 수 있다.
+일반적으로 플러그인의 개발은 DAW 업체에서 제공하는 SDK 상에서 이루어지는 게 보통이고, 이러한 경우 개발하는 OS에 대한 의존성이 커지기 때문에 MacOS/Windows 환경을 고려하여 개발하는 경우에는 별도의 포팅 작업이 필요하고 절차도 복잡해서, 개인이 개발하는 경우에는 대개 한 가지 OS를 지원하는 경우가 많았다. 그러나, 최근에는 OS에 대한 의존성을 최대한 줄인 개발 플랫폼이 배포되고 있어 이를 활용하면 특정 환경을 지원하는 플러긴이라도 일단 개발 완료하게 되면 AU/VST/VST3/AAX용 플러긴 뿐 아니라 MacOS/Window (Linux/iOS/Android), 32/64bit 모두 지원할 수 있도록 각각의 플러긴을 한꺼번에 빌드할 수 있다. 물론 standalone application도 동시에 만들 수 있다.
 
 #### JUCE
 
@@ -28,12 +28,11 @@ Juce ([http://www.juce.com](http://www.juce.com))에서 다운 받아서 사용�
 
 GPL 조건이므로 사용료를 지불하는 경우에 상용 앱/플러긴 개발시 사용이 가능하고, 사용료를 지불하지 않으면 개발 코드를 모두 공개하는 조건으로 사용해야 한다.
 
-
-![JUCE Homepage]()
+![JUCE Homepage](https://raw.githubusercontent.com/uberschall/test/master/implementing_audio_sw/juce-intro.png)
 
 #### WDL-OL
 
-WDL-OL은 Cokcos가 만들어놓은 WDL 플랫폼을 Oli Larkin이라는 개발자가 별도로 관리하는 branch라고 보면 된다.
+WDL-OL ([https://github.com/olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol))은 Cokcos가 만들어놓은 WDL 플랫폼을 Oli Larkin이라는 개발자가 별도로 관리하는 branch라고 보면 된다.
 
 #### 둘 중 어떤 개발 플랫폼이 좋은가?
 
