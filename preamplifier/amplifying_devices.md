@@ -1,7 +1,5 @@
 # Amplifying Devices
 
-## Amplifying Devices
-
 ### Vacuum Tube
 
 흔히 진공관이라 불리우는 장치로 열전자 방출 현상 (뜨거운 금속으로부터 전자가 방출되는 현상)을 이용하여 강력한 전기장 내에 달궈진 금속이 전자를 방출하도록 하여 전류를 흘릴 수 있게 한다.
@@ -65,9 +63,15 @@ OPAMP는 항상 피드백 회로에 의해 결정되는 정확한 증폭률로 �
 
 ### Micoroprocessor
 
+![](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/z80-cpu.jpg)
+그림. 프로그래머블 프리앰프에서 가장 널리 쓰였던 Z80 (TriAxis, ADA MP1, ...)
 
 
 ### Digital Signal Processor
+
+![](https://raw.githubusercontent.com/uberschall/test/master/preamplifier/ts201s.jpg)
+
+그림. 최근 음향 장비 DSP의 주축을 이루고 있는 DSP인 TigerSharc TS201 (UAD, Fractal Audio AxeFx, ...)
 
 #### Guitar Amplifier에서의 측면
 

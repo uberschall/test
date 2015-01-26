@@ -4,6 +4,7 @@
 * [Introduction](introduction/README.md)
 * [Preamplifier](preamplifier/README.md)
    * [Devices](preamplifier/amplifying_devices.md)
+   * [Famous Preamplifiers](preamplifier/famous_preamplifiers.md)
    * [Circuits](preamplifier/circuits)
 * [Power Amplifier](power_amplifier/README.md)
 * [Power Supply](power_supply/README.md)
