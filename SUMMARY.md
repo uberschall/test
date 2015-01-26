@@ -3,6 +3,8 @@
 * [Preface](README.md)
 * [Introduction](introduction/README.md)
 * [Preamplifier](preamplifier/README.md)
+   * [Devices](preamplifier/amplifying_devices.md)
+   * [Circuits](preamplifier/circuits)
 * [Power Amplifier](power_amplifier/README.md)
 * [Power Supply](power_supply/README.md)
 * [Real World Guitar Amplifiers](real_world_guitar_amplifiers/README.md)
