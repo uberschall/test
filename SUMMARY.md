@@ -23,7 +23,7 @@
        * [State Space Model](guitar_amplifier_simulation/state_space_model.md)
            * [Plate Follower](guitar_amplifier_simulation/plate_follower.md)
            * [Cathode Follower](guitar_amplifier_simulation/cathode_follower)
-           * [Phase Splitter](guitar_amplifier_simulation/phase_splitter)
+           * [Phase Splitter](guitar_amplifier_simulation/phase_splitter.md)
            * [Class AB Output Stage](guitar_amplifier_simulation/class_ab_output_stage.md)
    * [Triode Gain Stage](guitar_amplifier_simulation/triode_gain_stage.md)
 * [Implementing Audio S/W](implementing_audio_sw/README.md)
